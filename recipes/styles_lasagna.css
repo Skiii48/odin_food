@@ -1,0 +1,41 @@
+*,
+*::before
+*::after {
+    box-sizing: border-box;
+}
+/* always need to have the *::before & *::after *, box-sizing*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+ background-color: olive;
+ color: pink;
+ text-align: center;
+ font-size: 40px;
+}
+
+.lasagna_1 {
+ align-items: center;  
+}
+<!--the images align not working, might be cascade order-->
+
+.img_caption {
+  text-align: center;  
+  color: pink;
+}
+
+.para_1 {
+ color: black;
+ font-size: 15px;
+font-family: 'Times New Roman', Times, serif'
+}
+
+.heading_1 {
+ color: pink;
+}
+
+.heading_2 {
+ color: pink;
+}
